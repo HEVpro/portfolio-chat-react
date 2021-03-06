@@ -1,3 +1,11 @@
+# To try the chat with both test users you can use the following credentials:
+
+user1: Hache
+password: 123456
+
+user2:Bob
+password: 123456
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

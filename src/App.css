@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+* {
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial,
+    Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  letter-spacing: 0.5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ce-chat-list {
+  background-color: white !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ce-chats-container {
+  background-color: rgb(240, 240, 240) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ce-active-chat-card {
+  background-color: rgb(185, 201, 189) !important;
+
+  border-radius: 10px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.ce-chat-subtitle-text {
+  color: #595959 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ce-chat-form-container {
+  padding-bottom: 20px !important;
+  background-color: white !important;
+}
+
+.ce-text-input {
+  border-radius: 6px !important;
+  position: relative;
+  bottom: 40px;
+}
+.ce-text-input:focus {
+  border: 2px solid rgb(62, 120, 75) !important;
+}
+
+.ce-primary-button {
+  border-radius: 6px !important;
+  background-color: rgb(62, 120, 75) !important;
+  position: relative;
+  left: 20px;
+  bottom: 50px;
+}
+
+.ce-danger-button {
+  background-color: white !important;
+  border-radius: 22px !important;
+}
+
+.ce-settings {
+  background-color: white !important;
+}
+
+.ce-autocomplete-input {
+  border-radius: 6px !important;
+}
+
+.ce-autocomplete-options {
+  border-radius: 6px !important;
+  background-color: white !important;
+}
+
+.ce-chat-settings-container {
+  padding-top: 12px !important;
+  border-radius: 10px;
+}
+
+.ce-chat-avatars-row {
+  display: none !important;
 }
